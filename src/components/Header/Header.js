@@ -30,7 +30,7 @@ const Header = () => {
 
 
   return (
-    <motion.header transition={{delay: 0.2, duration: 0.6}} initial={!isScrolled ? {top: -100} : {top: 0}} animate={isScrolled ? {top: -100} : {top: 0}} className={'fixed -top-[100%] left-0'}>
+    <motion.header transition={{delay: 0.1, duration: 0.6}} initial={!isScrolled ? {top: -100} : {top: 0}} animate={isScrolled ? {top: -100} : {top: 0}} className={'fixed -top-[100%] left-0'}>
       <div className="container">
         <nav className='flex justify-between'>
           <div>
